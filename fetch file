@@ -1,0 +1,38 @@
+commit 302d0f1ece95513ad9e4d39fb78a7a9c3dd72305 (b200)
+Author: Skadoosh <vivektv81@gmail.com>
+Date:   Mon Apr 1 15:24:26 2024 +0000
+
+    myfile.txt
+
+commit c357feb1aed28052731c0ce716e46db5c5d47614
+Author: Skadoosh <vivektv81@gmail.com>
+Date:   Mon Apr 1 15:20:49 2024 +0000
+
+    new file added
+gitpractice $git branch -M main
+gitpractice $git branch
+  b200
+* main
+gitpractice $git remote add origin https://github.com/Skadoosh321/Devops1.git
+gitpractice $git remote -v
+origin  https://github.com/Skadoosh321/Devops1.git (fetch)
+origin  https://github.com/Skadoosh321/Devops1.git (push)
+gitpractice $git push -u origin main
+Username for 'https://github.com': skadoosh321
+Password for 'https://skadoosh321@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Skadoosh321/Devops1.git/'
+gitpractice $git push -u origin main
+Username for 'https://github.com': Skadoosh321
+Password for 'https://Skadoosh321@github.com': 
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (8/8), 694 bytes | 694.00 KiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Skadoosh321/Devops1.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+gitpractice $https://github.com/Skadoosh321/Devops1.git (push)
+-bash: syntax error near unexpected token `push'
